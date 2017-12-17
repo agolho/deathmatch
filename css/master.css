@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Russo+One|Space+Mono|Quattrocento|Quattrocento+Sans');
 
+body {
+  background-color: #000 !important;
+}
 .container {
   position: relative;
   width: 100% !important;
   background-color: #000 !important;
 }
-
 .image {
   display: block;
   width: 100%;
@@ -76,4 +78,11 @@ p {
   color: tomato;
   text-align: center;
   padding-top: 2em;
+}
+@media screen and (max-device-width: 640px) {
+    p {
+        width: 100% !important;
+        font-size: 3em;
+        padding: 0 1em 0 1em;
+    }
 }
